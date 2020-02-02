@@ -1,0 +1,374 @@
+/* Partikel */
+/* =============================================================================
+   HTML5 CSS Reset Minified - Eric Meyer
+   ========================================================================== */
+
+@import url(http://fonts.googleapis.com/css?family=Teko:300,400,500,600);
+
+
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+li{list-style:none;}
+
+
+/* =============================================================================
+   My CSS
+   ========================================================================== */
+
+html,body{ 
+	width:100%;
+	height:100%;
+	background:#000;
+}
+
+
+/* remove canvas default margin */
+canvas{
+	display:block;
+	vertical-align:bottom;
+}
+
+#particles-js{
+	width:100%;
+	height:100%;
+}
+
+h1{
+font-size: 7rem;
+position: absolute;
+top: 35%;
+left: 35%;
+color: #FFF;
+font-family: teko;
+font-weight: 400;
+text-shadow: 5px 5px #5F6D72;
+text-transform: uppercase;
+}
+/* Partikel */
+		span.reference{
+				position:fixed;
+				left:10px;
+				bottom:10px;
+				font-size:12px;
+			}
+			span.reference a{
+				color:#aaa;
+				text-transform:uppercase;
+				text-decoration:none;
+				text-shadow:1px 1px 1px #000;
+				margin-right:30px;
+			}
+			span.reference a:hover{
+				color:#ddd;
+			}
+			ul.sdt_menu{
+				margin-top:150px;
+			}
+			h1.title{
+				text-indent:-9000px;
+				background:transparent url(title.png) no-repeat top left;
+				width:633px;
+				height:69px;
+			}
+.bg{
+background:url(../img/bg4.jpg);
+background-size:cover;	
+}
+.button.button-fill {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+48,ffffff+100&0.78+48,0.45+100 */
+background: -moz-linear-gradient(top,  rgba(255,255,255,0.78) 48%, rgba(255,255,255,0.45) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,0.78) 48%,rgba(255,255,255,0.45) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(255,255,255,0.78) 48%,rgba(255,255,255,0.45) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c7ffffff', endColorstr='#73ffffff',GradientType=0 ); /* IE6-9 */
+    color: #fff;
+	border-right:solid #FFF 1px;
+	border-left:solid #FFF 1px;
+	border-radius:4px;
+	/*box-shadow: 0 3px 2px 0 rgba(255,255,255,0.2) ;*/            
+}
+.font_judul_1{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#FFF;
+}
+.font_judul_2{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#FFF;
+}
+.content-block {
+    margin: 12px 0;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.jarak_atas{
+	padding-top:9%;
+	margin-bottom:5px;
+	margin-top:5px;	
+}
+hr{
+	color:rgba(255,255,255,0.5);	
+}
+.hitam_transparan{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.4+0,0.25+50,0.4+100 */
+background: -moz-linear-gradient(top,  rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.25) 50%, rgba(0,0,0,0.4) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.25) 50%,rgba(0,0,0,0.4) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.25) 50%,rgba(0,0,0,0.4) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66000000', endColorstr='#66000000',GradientType=0 ); /* IE6-9 */
+}
+.hitam{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,0e0e0e+100&1+0,0.4+50,1+100 */
+background: -moz-linear-gradient(top,  rgba(0,0,0,1) 0%, rgba(7,7,7,0.4) 50%, rgba(14,14,14,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(7,7,7,0.4) 50%,rgba(14,14,14,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(0,0,0,1) 0%,rgba(7,7,7,0.4) 50%,rgba(14,14,14,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */
+border-radius:10px;
+border-top:rgba(204,204,204,0.5) solid 2px;
+border-bottom:rgba(204,204,204,0.5) solid 2px;
+box-shadow:rgba(51,153,255,0.4) 0px 2px 20px;
+}
+.jarak_atas_bawah{
+padding:15px;
+}
+.channel{
+width:150px;
+height:100px;
+margin:8px;	
+}
+.card {
+    background: #fff;
+    margin: 0px;
+    position: relative;
+    border-radius: 7px;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24);
+}
+.list-block .item-media+.item-inner {
+    margin-left: 7px;
+}
+.list-block .item-content {
+    box-sizing: border-box;
+    padding-left: 4px;
+    min-height: 48px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.list-block .item-inner {
+    /* padding-right: 16px; */
+    position: relative;
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    min-height: 48px;
+    box-sizing: border-box;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    min-width: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -ms-flex-item-align: stretch;
+    -webkit-align-self: stretch;
+    align-self: stretch;
+}
+.list-block.media-list .item-inner {
+    display: block;
+    padding-top: 8px;
+    padding-bottom: 14px;
+    -ms-flex-item-align: stretch;
+    -webkit-align-self: stretch;
+    align-self: stretch;
+}
+.list-block.media-list .item-media {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    -ms-flex-item-align: flex-start;
+    -webkit-align-self: flex-start;
+    align-self: flex-start;
+}
+.frame_acara{
+	margin-bottom:10px;
+height:20%;
+padding:8px;	
+}
+.frame_tv{
+height:100%;
+padding:6px;	
+}
+.list-block {
+    margin: 0px 0;
+    font-size: 16px;
+}
+.judul_chat{
+color:#FC0; font-weight:bold; font-size:12px;	
+}
+.list-block .item-inner:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: auto;
+    top: auto;
+    height: 1px;
+    width: 100%;
+    background-color: #ffcc00;
+    display: block;
+    z-index: 15;
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+}
+.navbar, .subnavbar, .toolbar {
+    background: none;
+}
+.searchbar {
+    height: 38px;
+    width: 100%;
+    background:none;
+    box-sizing: border-box;
+    padding: 0 8px;
+    overflow: hidden;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    color: #fff;
+}
+input#query {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    display: block;
+    -moz-appearance: none;
+    border-radius: 0px;
+    font-family: inherit;
+    color: #FFF;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 0px 10px 0px 10px;
+    background-color:rgba(255,255,255,0.4);
+    border: none;
+}
+.navbar .center, .subnavbar .center {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 0px;
+    position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 56px;
+    display: inline-block;
+    text-align: left;
+}
+.navbar {
+    left: 0;
+    top: 0;
+    height: 30px;
+    font-size: 20px;
+}
+.toolbar.messagebar {
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    background: rgba(238, 238, 238, 0.24);
+    height: 28px;
+    top: auto;
+    bottom: 0;
+    font-size: 16px;
+    overflow: hidden;
+}
+.send{
+	color:#FFF;
+	margin-right:10px;
+}
+.navbar-fixed .page-content {
+    padding-top: 0px;
+}
+.messages-content {
+    background: rgba(238, 238, 238, 0.11);
+}
+.message-sent .message-text {
+    background-color: #7fc8ff;
+    margin-left: auto;
+    border-radius: 2px 2px 0 2px;
+    margin-right: 8px;
+}
+.message-text {
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding: 6px 8px;
+    min-width: 48px;
+    font-size: 12px;
+    line-height: 1.2;
+    word-break: break-word;
+    color: #333;
+    min-height: 48px;
+    position: relative;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+.message-avatar {
+    width: 38px;
+    height: 38px;
+    border-radius: 100%;
+    margin-top: -28px;
+    position: relative;
+    top: 1px;
+    background-size: cover;
+    opacity: 1;
+    -webkit-transition-duration: .4s;
+    transition-duration: .4s;
+}
+.message-date, .message-label, .message-name, .messages-date {
+    color: #ccc;
+}
+.message-name {
+    font-size: 12px;
+    line-height: 1;
+    margin-bottom: 2px;
+    margin-top: -10px;
+}
+.share{
+	width:25px;
+margin-left:4px;
+margin-right:4px;	
+}
+.button.button-big {
+    height: 8%;
+    line-height: 48px;
+    border-radius: 3px;
+}
